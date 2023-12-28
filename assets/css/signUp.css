@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(251, 251, 251);
+    font-family: Arial, sans-serif; /* Specify a common font for consistency */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+section {
+    text-align: center;
+    margin: 5%;
+    padding: 50px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border: 2px solid lightgrey; /* Add a border for a container effect */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+input {
+    width: 60%;
+    padding: 10px; /* Increase padding for better input field appearance */
+    margin: 10px;
+    font-size: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 8px; /* Add border radius for rounded corners */
+}
+
+i {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -2.5%;
+    visibility: hidden;
+}
+
+small {
+    color: red;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid cyan; /* Make the border more visible on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow */
+}
+nav {
+    position: fixed;
+    top: 0; /* Make the navigation bar stick to the top */
+    left: 0;
+    width: 100%; /* Stretch the navigation bar across the screen */
+    background-color: #007BFF; /* Change the background color */
+    color: #fff; /* Change text color to white */
+    padding: 10px; /* Add some padding for better readability */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+button {
+    width: 20%;
+    height: 50%;
+    font-size: 20px;
+    padding: 10px; /* Increase padding for better button appearance */
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Add border radius for rounded corners */
+    cursor: pointer;
+}
+
+/* Add hover effect for the button */
+button:hover {
+    background-color: #444; /* Darken the background color on hover */
+}

@@ -1,0 +1,31 @@
+
+body {
+    width: 97%;
+    font-family: Arial, sans-serif; /* Specify a common font for consistency */
+}
+
+nav {
+    padding: 15px;
+    background-color: rgb(3, 45, 107);
+    margin-top: 0; /* Reset margin-top */
+    width: 100%;
+}
+
+nav > a:hover {
+    border-bottom: 4px solid orange;
+    padding-bottom: 11px;
+    color: orange; /* Change text color on hover */
+}
+
+a {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* Adjust the link style for consistency */
+a:hover {
+    color: orange;
+}
